@@ -14,8 +14,8 @@
             {
                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
                 "Props": {
-                    "Title": "HOME PAGE test",
-                    "Note": "Note Test",
+                    "Title": "HOME PAGE",
+                    "Note": "HOME PAGE NOTE",
                     "Fill": 1,
                     "Image": "https://github.com/Skidnoo/ArkServer/blob/644a94b82d596be808f66c2280896896afd1327f/Highz.jpg?raw=true"
                 },
@@ -55,7 +55,7 @@
                                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
                                         "Props": {
                                             "Fill": 2,
-                                            "VerticalAlignment": 2,
+                                            "VerticalAlignment": 1,
                                             "Padding": [
                                                 10,
                                                 10,
@@ -67,7 +67,7 @@
                                             {
                                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                 "Props": {
-                                                    "Text": "$$SERVER$:$WELCOME_TO_SERVER",
+                                                    "Text": "Willkommen im Highonez Cluster",
                                                     "FontSize": 32,
                                                     "Padding": [
                                                         5,
@@ -80,7 +80,7 @@
                                             {
                                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                 "Props": {
-                                                    "Text": "$$SERVER$:$SERVER_SLOGAN",
+                                                    "Text": "Hier werden manche Wünsche war und andere zerstört",
                                                     "FontSize": 16,
                                                     "Padding": [
                                                         5,
@@ -93,21 +93,6 @@
                                             {
                                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
                                                 "UIItems": [
-                                                    {
-                                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
-                                                        "Props": {
-                                                            "Label": "Link to a Twitter Page",
-                                                            "Padding": [
-                                                                5,
-                                                                5,
-                                                                5,
-                                                                5
-                                                            ]
-                                                        },
-                                                        "OnClickEvent": {
-                                                            "Url": "https://twitter.com/"
-                                                        }
-                                                    },
                                                     {
                                                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
                                                         "Props": {
@@ -202,7 +187,7 @@
                                                     {
                                                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                         "Props": {
-                                                            "Text": "Q: What is this About?",
+                                                            "Text": "Was ist das hier?!",
                                                             "FontSize": 14,
                                                             "Justification": "Center",
                                                             "Padding": [
@@ -216,7 +201,7 @@
                                                     {
                                                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                         "Props": {
-                                                            "Text": "A: Just a demo server info page provided my the Ark-Nucleus mod.",
+                                                            "Text": "A: Infoseite vom Ark-Nucleus mod.",
                                                             "FontSize": 11,
                                                             "Justification": "Center",
                                                             "Fill": 1,
@@ -231,7 +216,7 @@
                                                     {
                                                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
                                                         "Props": {
-                                                            "Label": "Learn More",
+                                                            "Label": "Lerne mehr",
                                                             "Padding": [
                                                                 5,
                                                                 5,
@@ -247,7 +232,7 @@
                                                                 {
                                                                     "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                                     "Props": {
-                                                                        "Text": "This is just a small representation of what kind of pages can be setup using the Ark-Nucleus JSON Editor.",
+                                                                        "Text": "Auf der linken Seite findest du zusätzliche Infos zu allen Mods und items. Unter Server Info gibt es ein paar Infos zu den Anpassungen.",
                                                                         "FontSize": 15,
                                                                         "Fill": 1
                                                                     }
